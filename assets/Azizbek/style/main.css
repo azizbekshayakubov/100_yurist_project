@@ -28,11 +28,8 @@ p {
 .container {
   max-width: 1140px;
   width: 100%;
-
-=======
   padding: 0 16px;
   margin: 0 auto;
-
 }
 
 .feedback_wrapper {
@@ -47,7 +44,6 @@ p {
   line-height: normal;
   letter-spacing: -0.96px;
 }
-
 .feedback_wrapper .feedback {
   display: grid;
   grid-template-columns: 46% 46%;
@@ -56,7 +52,14 @@ p {
 }
 .feedback_wrapper .feedback_content {
   margin-top: 20px;
-
+  border-radius: 20px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 96%;
+}
 
 .feedback {
   display: grid;
@@ -67,31 +70,20 @@ p {
 
 .feedback_content {
   margin-top: 30px;
-
   border-radius: 20px;
   border: 1px solid rgba(47, 43, 67, 0.15);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-
-  width: 96%;
-}
-.feedback_wrapper img {
-=======
   width: 78%;
 }
 .feedback_content img {
-
   margin-right: 15px;
   width: 80px;
   height: 80px;
 }
-
-.feedback_wrapper p {
-=======
 .feedback_content p {
-
   color: var(--base-black, #140a32);
   font-family: Open Sans;
   font-size: 16px;
@@ -99,11 +91,7 @@ p {
   font-weight: 400;
   line-height: 150%; /* 24px */
 }
-
-.feedback_wrapper .phone_number {
-=======
 .feedback_content .phone_number {
-
   color: var(--base-black, #140a32);
   font-family: Open Sans;
   font-size: 16px;
@@ -345,11 +333,8 @@ p {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-
 }
 
 button {
   transition: 0.5s;
-=======
-
 }/*# sourceMappingURL=main.css.map */
