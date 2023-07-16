@@ -11,6 +11,7 @@
   }
 
 
+
 .feedback {
   display: grid;
   grid-template-columns: 46% 46%;
@@ -28,6 +29,25 @@
   padding: 30px;
   width: 96%;
 }
+
+}
+
+.feedback {
+  display: grid;
+  grid-template-columns: 52% 52%;
+  gap: 20px;
+  margin-bottom: 80px;
+  //
+}
+
+.feedback_content {
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  @include d-flex;
+  padding: 30px;
+  width: 78%;
+
   img {
     margin-right: 15px;
     width: 80px;
@@ -310,6 +330,8 @@
 
  
 }
+
 button{
   transition: 0.5s;
 }
+
