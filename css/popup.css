@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: #c1bed2;
+} */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.popup__card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  margin: 50px auto;
+  background-color: #e7e3e3;
+  max-width: 800px;
+}
+.popup__card .women-call img {
+  width: 260px;
+  max-height: 390px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.popup__card .popup__card-title .yurists h1 {
+  color: #140A32;
+}
+.popup__card .popup__card-title .popup__card-input .yurist {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.popup__card .popup__card-title .popup__card-input .yurist p {
+  color: #140A32;
+}
+.popup__card .popup__card-title .popup__card-input .input-text button {
+  padding: 16px 24px 18px 24px;
+  background-color: #140A32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.popup__card .popup__card-title .popup__card-input .input-text input {
+  padding: 16px 10px 18px 10px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid #c1bed2;
+  margin-right: 10px;
+}
+.popup__card .popup__card-title .popup__card-input .input-text input:focus {
+  outline: none;
+}
+.popup__card .popup__card-title .popup__card-input .input-text p {
+  padding-top: 15px;
+  font-size: 12px;
+  color: #2F2B43;
+}
+.popup__card .close_thick {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.popup__card-two {
+  padding: 50px 0px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  margin: 20px auto;
+  background-color:#e7e3e3;
+  max-width: 800px;
+}
+.popup__card-two .check {
+  display: block;
+  margin: 0 auto;
+}
+.popup__card-two .check h1 {
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+}
+.popup__card-two .check p {
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+.popup__card-two .check img {
+  display: block;
+  margin: 0 auto;
+}
+.popup__card-two .check button {
+  padding: 16px 36px 18px 36px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: #33836E;
+  margin: 0 auto;
+  display: block;
+}
+.popup__card-two .close_thick {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+@media (max-width: 768px) {
+  .popup__card {
+    padding: 20px;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  .popup__card .yurists h1 {
+    font-size: 25px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .popup__card .women-call img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 182px;
+    height: 213px;
+  }
+  .popup__card .popup__card-input {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .popup__card .yurist {
+    flex-direction: column-reverse;
+    margin-right: -135px;
+    margin-bottom: 50px;
+  }
+  .popup__card .yurist p {
+    font-size: 13px;
+  }
+  .popup__card .yurist img {
+    width: 160px;
+  }
+  .popup__card-input {
+    display: block;
+  }
+  .popup__card-input input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .popup__card-input button {
+    width: 100%;
+  }
+  .popup__card-two {
+    padding: 90px 0px;
+  }
+}/*# sourceMappingURL=popup.css.map */
