@@ -1,0 +1,105 @@
+.hero {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 90px;
+
+    .hero__left {
+        .left__top {
+            color: var(--gray-medium, rgba(47, 43, 67, 0.50));
+            font-family: Open Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 49px;
+
+            a {
+                color: var(--gray-medium, rgba(47, 43, 67, 0.50));
+                font-family: Open Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .hero__title {
+            color: var(--base-black, #140A32);
+            font-family: Open Sans;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -1.14px;
+        }
+
+        .hero__subtitle {
+            color: var(--base-black, #140A32);
+            font-family: Open Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            margin-top: 25px;
+            /* 25.6px */
+        }
+
+        .zadat {
+            display: inline-flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 30px;
+
+            .zad__left {
+                display: flex;
+                padding: 16px 36px 18px 36px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 10px;
+                background: var(--green, #33836E);
+
+                color: var(--base-white, #FFF);
+                text-align: center;
+                font-family: Open Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            .zad__right {
+                h3 {
+                    color: var(--green, #33836E);
+                    font-family: Open Sans;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                p {
+                    color: var(--gray-medium, rgba(47, 43, 67, 0.50));
+                    font-family: Open Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+    .krug{
+        display: flex;
+        gap: 30px;
+        margin-top: 40px;
+
+
+        li a{
+            display: flex;
+            gap: 10px;
+        }
+    }
+}
